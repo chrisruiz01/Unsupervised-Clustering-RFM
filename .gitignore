@@ -2,9 +2,6 @@
 .ipynb_checkpoints/
 notebooks/.ipynb_checkpoints/
 
-# Ignore the assets directory
-assets/
-
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
@@ -17,9 +14,6 @@ __pycache__/
 
 # Serialized objects
 *.pickle
-
-# Data directory
-data/
 
 # Environment configuration files
 .env

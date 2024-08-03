@@ -1,2 +1,37 @@
+# Ignore Jupyter Notebook checkpoints
+.ipynb_checkpoints/
+notebooks/.ipynb_checkpoints/
+
+# Ignore the assets directory
+assets/
+
+# Byte-compiled / optimized / DLL files
+__pycache__/
+*.py[cod]
+
 # Jupyter Notebook checkpoints
 .ipynb_checkpoints
+
+# Model files
+*.h5
+
+# Serialized objects
+*.pickle
+
+# Data directory
+data/
+
+# Environment configuration files
+.env
+
+# Virtual environment
+venv/
+env/
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# IDE/Editor specific files
+.idea/
+.vscode/

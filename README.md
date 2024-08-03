@@ -24,7 +24,7 @@ RFM score was calculated for each unique CustomerID using the rank method and th
 
 RFM Score = Recency Score (Recency Rank * Recency Weight) + Frequency Score (Frequency Rank * Frequency Weight) + Monetary Score (Monetary Rank * Monetary Weight)
 
-![rfm](assets/rfm_segments.png)
+![rfm](assets/rfm_segments1.png)
 
 ### Preprocessing
 
@@ -33,15 +33,15 @@ The RFM data was scaled using RobustScaler, as there are many outliers in the da
 ### Model Building
 K-Means with the Elbow Method and Silhouette Scores were used to find three as the best number of clusters.  
 
-![elbow](assets/elbow.png)
+![elbow](assets/elbow1.png)
 
 PCA was then used to visualize the three clusters in a 2-dimensional space. 
 
-![pca](assets/pca_k_clusters.png)
+![pca](assets/pca_k_clusters1.png)
 
 Boxplots helped in visualizing the clusters and providing the following insights after appending them to the RFM dataframe. 
 
-![clusters](assets/k_clusters.png)
+![clusters](assets/k_clusters1.png)
 
 **Cluster 0 - Dormant Customers** represents customers who haven't purchased in a while, as indicated by high recency, make infrequent purchases, and have low monetary value  
 
